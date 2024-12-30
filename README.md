@@ -9,7 +9,6 @@ A Python-based clipboard management application with a graphical user interface 
 
 - 📋 **Save Clipboard Content**: Manually or automatically save text and image content from the clipboard.
 - 🗂️ **Persistent Clipboard History**: Entries are saved in a JSON file and persist across sessions.
-- 🖼️ **Multimedia Support**: Handles both text and images.
 - 📤 **Export/Import History**: Export clipboard history to a text file and import it back seamlessly.
 - 🗑️ **Easy Management**: Delete individual entries or clear the entire history with a single click.
 - ⚙️ **Error Handling and Logging**: Robust error handling with logs saved to `clipboard_manager_errors.log`.
