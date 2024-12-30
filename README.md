@@ -1,7 +1,7 @@
 
 # 📋 Clipboard Manager
 
-A Python-based clipboard management application with a graphical user interface (GUI) built using PyQt5. This application allows users to save, view, manage, and export/import clipboard history, including both text and images.
+A Python-based clipboard management application with a graphical user interface (GUI) built using PyQt5. This application allows users to save, view, manage, and export/import clipboard history.
 
 ---
 
