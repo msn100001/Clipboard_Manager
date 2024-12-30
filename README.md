@@ -1,30 +1,43 @@
 
-# Clipboard Manager
+# 📋 Clipboard Manager
 
 A Python-based clipboard management application with a graphical user interface (GUI) built using PyQt5. This application allows users to save, view, manage, and export/import clipboard history, including both text and images.
 
-## Features
+---
 
-- **Save Clipboard Content**: Manually or automatically save text and image content from the clipboard.
-- **View Clipboard History**: Display previously saved clipboard entries in an organized GUI.
-- **Export/Import History**: Export clipboard history to a text file and import it back.
-- **Delete Entries**: Delete individual or all entries from the clipboard history.
-- **Auto-Save Feature**: Automatically save clipboard content periodically.
-- **JSON Persistence**: Clipboard history is saved persistently using a JSON file.
-- **Error Handling**: Comprehensive error handling with logs written to `clipboard_manager_errors.log`.
+## ✨ Features
 
-## Requirements
+- 📋 **Save Clipboard Content**: Manually or automatically save text and image content from the clipboard.
+- 🗂️ **Persistent Clipboard History**: Entries are saved in a JSON file and persist across sessions.
+- 🖼️ **Multimedia Support**: Handles both text and images.
+- 📤 **Export/Import History**: Export clipboard history to a text file and import it back seamlessly.
+- 🗑️ **Easy Management**: Delete individual entries or clear the entire history with a single click.
+- ⚙️ **Error Handling and Logging**: Robust error handling with logs saved to `clipboard_manager_errors.log`.
+
+---
+
+## 🖥️ Screenshot
+
+Below is a screenshot of the Clipboard Manager GUI:
+
+![Clipboard Manager GUI](https://github.com/msn100001/Clipboard_Manager/raw/main/images/GUI_Image.png)
+
+---
+
+## 🛠️ Requirements
 
 - Python 3.7+
 - PyQt5
 - Pillow (PIL for image handling)
 
-## Installation
+---
+
+## 🚀 Installation
 
 1. Clone this repository:
    ```bash
-   git clone <repository_url>
-   cd clipboard_manager
+   git clone git@github.com:msn100001/Clipboard_Manager.git
+   cd Clipboard_Manager
    ```
 
 2. Set up a virtual environment (optional but recommended):
@@ -43,7 +56,9 @@ A Python-based clipboard management application with a graphical user interface 
    python main.py
    ```
 
-## Usage
+---
+
+## 📋 Usage
 
 - **Saving Clipboard Content**: Click "Save Clipboard" to manually save the current clipboard content.
 - **Auto-Save**: Enable "Auto-Save" to periodically save clipboard content automatically.
@@ -51,7 +66,9 @@ A Python-based clipboard management application with a graphical user interface 
 - **Import**: Use the "Import List" button to load clipboard history from a file.
 - **Delete Entries**: Right-click an entry in the list to delete it, or use the "Clear All" button to delete all entries.
 
-## File Structure
+---
+
+## 📁 File Structure
 
 ```
 clipboard_manager/
@@ -64,20 +81,35 @@ clipboard_manager/
 ├── clipboard_manager_errors.log  # Log file for error tracking (auto-generated)
 ```
 
-## Error Logging
+---
 
-All errors are logged to `clipboard_manager_errors.log`. Ensure this file exists or will be created by the application in the current directory.
+## 📂 Export/Import File Format
 
-## Contributing
+- **Export**: Clipboard entries are exported to a text file with a delimiter (`---ENTRY---`) to distinguish between entries.
+- **Import**: The application automatically parses imported files and restores clipboard entries.
 
-Feel free to fork this project and submit pull requests. For major changes, please open an issue to discuss the changes first.
+---
 
-## License
+## 🛡️ Error Logging
+
+All errors are logged to `clipboard_manager_errors.log`. Ensure this file exists or is created in the current directory by the application.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Fork this repository, make your changes, and submit a pull request. For major changes, please open an issue to discuss your ideas.
+
+---
+
+## 📜 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Acknowledgments
+---
+
+## 🙌 Acknowledgments
 
 - **PyQt5** for GUI development
 - **Pillow** for image processing
-- Python community for tools and libraries
+- The Python community for tools and libraries
